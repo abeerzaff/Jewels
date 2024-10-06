@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #DEDEDE;
+		}
+		body{
+			background-image:url("image9.webp");
+			background-size:cover;
+			font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+			color:black;
+			margin:0;
+			padding:0;
+			}
+
+		header {
+			background-color:#EBECF0;
+			color: #000000;
+			padding: 10px;
+		}
+
+		h1 {
+			margin: 0;
+		}
+
+		form {
+			background-color: #ECECEC;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			margin-top: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #666;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1><i>Contact Us</i></h1>
+	</header>
+	<div class="container">
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name">
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address">
+
+			<label for="subject">Subject</label>
+			<input type="text" id="subject" name="subject" placeholder="Enter the subject of your message">
+
+			<label for="message">Message</label>
+			<input type="text" id="message" name="message" placeholder="Enter your message"></textarea>
+			
+			<br>
+			<button type="button"
+			onclick="document.getElementById('id1').style.color='red'">
+			Submit</button>
+		</form>
+	</div>
+</body>
+</html>
