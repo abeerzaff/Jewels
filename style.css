@@ -58,3 +58,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #666;
 }
+
+
+button:active {
+    background-color: #1e7e34; 
+    transform: translateY(1px); 
+}
+
+button:hover {
+    background-color: #218838; 
+    transform: translateY(-2px); 
+}   
