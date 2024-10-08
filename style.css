@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background-image: url("image9.webp");
+    background-image: url("imagee.webp");
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
@@ -23,7 +23,7 @@ h1 {
 }
 
 form {
-    background-color: #ECECEC;
+    background-color: #7d4b4b;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #333;
+    background-color: #7b1212;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -61,7 +61,7 @@ input[type="submit"]:hover {
 
 
 button:active {
-    background-color: #1e7e34; 
+    background-color: #64936f; 
     transform: translateY(1px); 
 }
 
